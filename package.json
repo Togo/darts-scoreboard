@@ -9,6 +9,7 @@
     "babel-eslint": "^7.1.0",
     "eslint": "*",
     "promise-pg": "^0.1.1",
+    "pg": "^4.2.0",
     "eslint-plugin-react": "*",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^1.0.0",
