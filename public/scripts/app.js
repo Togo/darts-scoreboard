@@ -29,6 +29,6 @@ requirejs(['GameController', 'services/EventObserver'],
 
     // Config global variables, to be refactored.
     BACKEND_API_URL = 'https://palinka-dart-arena.herokuapp.com';
-
+   console.log('Start execute');
     gameController.execute();
   });
