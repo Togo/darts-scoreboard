@@ -6,6 +6,7 @@ var connectionString = ('postgres://mrikelctdoichh:c7e5955d89d75e3af7d8ab6e8037a
 bluebird.longStackTraces();
 
 var pg = require('pg');
+console.log('Thats me');
 
 // monkey patch pg.Client.query to console.log for testing purposes only
 // I just want to log all the queries to the console as the happen along with a
