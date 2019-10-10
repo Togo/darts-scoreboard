@@ -8,7 +8,7 @@
     "apache-server-configs": "^2.7.1",
     "babel-eslint": "^7.1.0",
     "eslint": "*",
-    "pg-promise": "*",
+    "promise-pg": "*",
     "eslint-plugin-react": "*",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^1.0.0",
