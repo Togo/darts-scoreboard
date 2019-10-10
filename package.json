@@ -8,6 +8,7 @@
     "apache-server-configs": "^2.7.1",
     "babel-eslint": "^7.1.0",
     "eslint": "*",
+    "pg-promise": "*",
     "eslint-plugin-react": "*",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^1.0.0",
@@ -38,7 +39,7 @@
   "dependencies": {
     "bower": "1.7.9",
     "express": "^4.16.4",
-   "pg-promise": "",
+   
     "requirejs": "~2.1.14"
   },
   "scripts": {
