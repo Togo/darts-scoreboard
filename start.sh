@@ -41,6 +41,6 @@ tput rc
 if [ $choice = 1 ]
    then
         echo "Starting up application.."
-        docker run --name darts-scoreboard -ti --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp darts-scoreboard:0.0.1 npm install \
+        docker run --name darts-scoreboard -ti --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp darts-scoreboard:0.0.1 npm install npm install promise-pg \
         && docker run -p 80:80 -p 35729:35729 --name darts-scoreboard -ti --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp darts-scoreboard:0.0.1 grunt serve
 fi
