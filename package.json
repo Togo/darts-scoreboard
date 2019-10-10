@@ -41,7 +41,7 @@
     "requirejs": "~2.1.14",
     "bluebird": "^2.9.6",
     "pg": "^4.2.0",
-    "uuid": "^2.0.1"
+    "uuid": "^3.3.3"
   },
   "scripts": {
     "postinstall": "bower install"
