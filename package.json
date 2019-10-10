@@ -8,8 +8,6 @@
     "apache-server-configs": "^2.7.1",
     "babel-eslint": "^7.1.0",
     "eslint": "*",
-    "promise-pg": "^0.1.1",
-    "pg": "^4.2.0",
     "eslint-plugin-react": "*",
     "grunt": "^1.0.4",
     "grunt-autoprefixer": "^1.0.0",
@@ -40,9 +38,10 @@
   "dependencies": {
     "bower": "1.7.9",
     "express": "^4.16.4",
-   "promise-pg": "^0.1.1",
     "requirejs": "~2.1.14",
-    "pg": "^4.2.0"
+    "bluebird": "^2.9.6",
+    "pg": "^4.2.0",
+    "uuid": "^2.0.1"
   },
   "scripts": {
     "postinstall": "bower install"
