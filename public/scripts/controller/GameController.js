@@ -20,7 +20,7 @@ define(
 
             this.gameModel = new GameModel(ko, self.chartWidget.getInstance(), GameShotDetectorService);
 
-            this.loadEncounter = getConnection().ajax({
+            this.loadEncounter = $.ajax({
                     type: 'GET',
                     url: BACKEND_API_URL + '/api/encounters/2',
                     contentType: "application/json",
